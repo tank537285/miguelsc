@@ -1,7 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "bin": {
+    "miguelrc": "bin/miguelrc.js"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "dependencies": {}
 }
