@@ -28,7 +28,7 @@ inquirer
 
 if(options.name) {
     const { exec } = require('child_process');
-    exec(`git clone https://github.com/tank537285/miguelrc.git ${options.name}`);;
+    exec(`git clone https://github.com/tank537285/miguelrc.git ${options.name}`);
 };
 
 
