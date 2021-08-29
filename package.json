@@ -1,9 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "bin": {
-    "miguelrc": "bin/miguelrc.js"
-  },
   "devDependencies": {
     "commander": "^8.1.0",
     "inquirer": "^8.1.2",
