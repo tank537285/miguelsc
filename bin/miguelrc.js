@@ -27,12 +27,8 @@ inquirer
     });
 
 if(options.name) {
-    const git = program.command('git');
-    git
-        .command(`clone https://github.com/tank537285/miguelsc/tree/main/packages/miguelrc ./${name}`)
-        .action(() => {
-            console.log('brew tea');
-        });
+    const { exec } = require('child_process');
+    exec(`git clone https://github.com/tank537285/miguelrc.git ${options.name}`);
 };
 
 
