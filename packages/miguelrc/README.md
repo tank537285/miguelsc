@@ -2,12 +2,17 @@
 
 > TODO: description
 
-node bin/miguelrc.js -n test
+yarn global miguelrc
+
+miguelrc -n projectname
+
+node bin/miguelrc.js --name=test
+
 
 ## Usage
 
 ```
-const miguelrc = require('miguelrc');
 
-// TODO: DEMONSTRATE API
 ```
+
+
