@@ -98,7 +98,7 @@ async function getcli(name) {
     await getGit(name);
     console.log("开始初始化模版")
     await removeDirector(name);
-    console.log("开始修改版本号")
+    console.log("开始修改版本号 ")
     await editFile({version:'0.0.1',projectName:name});
 }
 
