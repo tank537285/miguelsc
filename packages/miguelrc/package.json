@@ -35,5 +35,6 @@
     "inquirer": "^8.1.2",
     "nodegit": "^0.27.0",
     "shelljs": "^0.8.4"
-  }
+  },
+  "gitHead": "dc73e00899fccd295a87d467349897264e8153b2"
 }
