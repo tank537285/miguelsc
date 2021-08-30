@@ -41,7 +41,7 @@ const editFile = function({ version, projectName }) {
             // 写入文件
             fs.writeFile(`${cwd()}/${projectName}/package.json`, str, function (err) {
                 if (err) {
-                    reject(err);
+                    reject(err); 
                 }else {
                     resolve();
                 }
