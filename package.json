@@ -2,9 +2,6 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "commander": "^8.1.0",
-    "inquirer": "^8.1.2",
     "lerna": "^4.0.0"
-  },
-  "dependencies": {}
+  }
 }

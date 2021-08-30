@@ -1,0 +1,38 @@
+{
+  "name": "miguelrc",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "hujun <276635105@qq.com>",
+  "homepage": "https://github.com/tank537285/miguelsc#readme",
+  "license": "ISC",
+  "main": "lib/miguelrc.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "miguelrc-cli": "bin/miguelrc.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.devops.erp.ocj.com.cn/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tank537285/miguelsc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tank537285/miguelsc/issues"
+  },
+  "dependencies": {
+    "commander": "^8.1.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "nodegit": "^0.27.0"
+  }
+}
