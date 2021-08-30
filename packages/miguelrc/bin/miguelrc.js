@@ -33,7 +33,7 @@ const editFile = function({ version, projectName }) {
         // 读取文件
         fs.readFile(`${cwd()}/${projectName}/package.json`, (err, data) => {
             if (err) throw err;
-            // 获取json数据并修改项目名称和版本号;;
+            // 获取json数据并修改项目名称和版本号;;;
             let _data = JSON.parse(data.toString())
             _data.name = projectName
             _data.version = version
