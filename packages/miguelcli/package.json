@@ -17,7 +17,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://npm.devops.erp.ocj.com.cn/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,8 @@
     "fs-extra": "^10.0.0",
     "inquirer": "^8.1.2",
     "nodegit": "^0.27.0",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.4",
+    "user": "^0.0.0"
   },
   "gitHead": "6c2f8de1cf8706c0b2d80c98cd0ddb668ed0755b"
 }
