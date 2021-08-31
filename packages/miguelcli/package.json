@@ -1,17 +1,17 @@
 {
-  "name": "miguelrc",
+  "name": "miguelcli",
   "version": "0.1.8",
   "description": "> TODO: description",
   "author": "hujun <276635105@qq.com>",
   "homepage": "https://github.com/tank537285/miguelsc#readme",
   "license": "ISC",
-  "main": "lib/miguelrc.js",
+  "main": "lib/miguelcli.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "bin": {
-    "miguelrc": "bin/miguelrc.js"
+    "miguelcli": "bin/miguelcli.js"
   },
   "files": [
     "lib"
