@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './common/style/index.css';
 import reportWebVitals from './reportWebVitals';
+import Router from "./router/Router";
+import {createStore,applyMiddleware,compose} from 'redux';
+import thunk from 'redux-thunk';
+import {Provider} from 'react-redux';
+import reducer from './redux/reducers/index';
+// import {changeInfoDelay} from "./redux/actions";
+
+const store=createStore(reducer,{"info":{"people":1}},compose(applyMiddleware(thunk)/*,reduxDevtools*/));
+//接口初始化基础数据
+// store.dispatch(changeInfoDelay());
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Provider store={store}>
+          <Router></Router>
+      </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

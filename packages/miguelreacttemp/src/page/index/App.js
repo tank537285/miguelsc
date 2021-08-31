@@ -2,6 +2,8 @@ import {useState,useEffect} from 'react'
 import FriendStatus from "./demo/FriendStatus";
 import Counter from "./demo/Counter";
 import Example from "./demo/Example";
+// import './App.scss';
+import DemoContainer from "./containers/DemoContainer";
 
 function App() {
   const [count, setCount] = useState(99);
@@ -23,6 +25,9 @@ function App() {
         <Counter initialCount={0}></Counter>
         <Example/>
       </header>
+
+      {/*reduxdemo*/}
+      <DemoContainer/>
     </div>
   );
 }
