@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './common/style/index.css';
+import './common/style/index.scss';
 import reportWebVitals from './reportWebVitals';
 import Router from "./router/Router";
 import {createStore,applyMiddleware,compose} from 'redux';
