@@ -8,6 +8,7 @@ import thunk from 'redux-thunk';
 import {Provider} from 'react-redux';
 import reducer from './redux/reducers/index';
 // import {changeInfoDelay} from "./redux/actions";
+// import { gsap } from "gsap";
 
 const store=createStore(reducer,{"info":{"people":1}},compose(applyMiddleware(thunk)/*,reduxDevtools*/));
 //接口初始化基础数据
